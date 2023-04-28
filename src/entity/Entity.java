@@ -5,7 +5,7 @@ import java.awt.image.BufferedImage;
 public class Entity {
 
 	//Atributos para cuidar do movimento do jogador
-	public int x, y;
+	public int worldX, worldY;
 	public int speed;
 	
 	//Descreve uma imagem com um buffer de imagens acessível

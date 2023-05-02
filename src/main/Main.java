@@ -18,9 +18,11 @@ public class Main {
 		//Seta o tamanho desse frame para o tamanho preferido do painel
 		frame.pack();
 	
+		//Define a localização do frame e a visibilidade
 		frame.setLocationRelativeTo(null);
 		frame.setVisible(true);
 		
+		panel.setupGame();
 		panel.startGameThread();
 	}
 }
